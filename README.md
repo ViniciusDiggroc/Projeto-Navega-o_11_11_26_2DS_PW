@@ -130,12 +130,9 @@ Todas as operações devem ler e gravar diretamente nos arquivos JSON.
 - Alterações implementadas;
 - Ajustes feitos manualmente.
 
+O README vou fazer no final qualquer duvida me fale o por que e tal malhoria
+2º Minhas decisões para a migração: dados: manter. Organização: util. Podemos começar.
 
-O README vou fazer no final
-qualquer duvida me fale o por que e tal malhoria
-
-2º
-Minhas decisões para a migração: dados: manter. Organização: util. Podemos começar.
 ---
 
 ## Resposta da IA
@@ -295,6 +292,7 @@ Teste primeiro o cadastro de um produto. Depois, confira se ele apareceu no arqu
 Uma observação: os testes que realizei até agora verificam a sintaxe e a persistência dos arquivos, não todas as interações HTTP pelo navegador.
 
 Quero que façamos os testes juntos, começando por produtos. Se aparecer qualquer erro, envie a mensagem ou uma captura de tela antes de alterarmos outros arquivos.
+
 ---
 
 ## Sugestões Recebidas pela IA
@@ -359,6 +357,7 @@ Motivo: verificar se a migração realmente funciona na aplicação, e não apen
 Durante a implementação, explicar o motivo das mudanças, apresentar possíveis problemas e orientar sobre suas soluções.
 
 Motivo: garantir que você compreenda o código desenvolvido e consiga explicar as alterações realizadas.
+
 ---
 
 ## Uso da Inteligência Artificial
@@ -372,18 +371,21 @@ Sim, usamos Inteligência Artificial
 - Implementação do módulo `jsonDatabase.js`.
 - Adaptação das rotas para utilizar os arquivos JSON.
 - Implementação das operações CRUD com persistência dos dados.
+  
 ---
 
 ## Desafios Encontrados
 Durante a migração, foi necessário adaptar o armazenamento dos dados sem comprometer as funcionalidades existentes.
 
 Também foi necessário garantir que as operações de cadastro, consulta, edição e exclusão funcionassem corretamente com os arquivos JSON.
+
 ---
 
 ## Evidências do Uso da IA
 A inteligência artificial foi utilizada como ferramenta de apoio durante o desenvolvimento do projeto.
 
 Nesta seção, são apresentadas as evidências da utilização da IA, incluindo os prompts utilizados, as respostas recebidas e as sugestões aproveitadas durante a implementação.
+
 ---
 
 ## Conclusão
@@ -392,6 +394,7 @@ A realização deste projeto permitiu compreender melhor como funciona a migraç
 Com o apoio da inteligência artificial, foi possível obter sugestões e orientações para facilitar o processo de desenvolvimento. A atividade contribuiu para aprimorar os conhecimentos sobre operações CRUD, persistência de dados e organização do código.
 
 Além disso, foi possível identificar a importância de manter os dados organizados e garantir que as funcionalidades do sistema continuem funcionando corretamente após as alterações.
+
 ---
 
 ## Links
