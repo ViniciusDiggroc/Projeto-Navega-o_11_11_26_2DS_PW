@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nome": "Notebook Gamer",
+    "descricao": "Notebook para trabalho e estudo",
+    "preco": 4999.9,
+    "estoque": 12
+  },
+  {
+    "id": 2,
+    "nome": "Teclado Mecânico",
+    "descricao": "Teclado com switches azuis",
+    "preco": 399.9,
+    "estoque": 25
+  },
+  {
+    "id": 3,
+    "nome": "Mouse Sem Fio",
+    "descricao": "Mouse ergonômico e leve",
+    "preco": 149.9,
+    "estoque": 30
+  }
+]

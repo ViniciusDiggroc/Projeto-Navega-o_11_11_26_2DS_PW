@@ -1,0 +1,46 @@
+<%- include("partials/header") %>
+<%- include("partials/nav") %>
+
+<main class="container page-shell">
+  <section class="hero-card">
+    <span class="eyebrow">Dashboard</span>
+    <h1 class="mb-3">Sistema de Cadastro</h1>
+    <p>Gerencie categorias, produtos, clientes e fornecedores em uma interface simples, organizada e responsiva.</p>
+  </section>
+
+  <div class="row g-4">
+    <div class="col-md-6 col-xl-3">
+      <div class="quick-card">
+        <h3>Categorias</h3>
+        <p>Organize os grupos principais do seu negócio.</p>
+        <a class="primary-btn" href="/categorias">Acessar</a>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-xl-3">
+      <div class="quick-card">
+        <h3>Produtos</h3>
+        <p>Cadastre itens, preços e quantidades em estoque.</p>
+        <a class="primary-btn" href="/produto">Acessar</a>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-xl-3">
+      <div class="quick-card">
+        <h3>Clientes</h3>
+        <p>Controle os dados e contatos dos clientes.</p>
+        <a class="primary-btn" href="/cliente">Acessar</a>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-xl-3">
+      <div class="quick-card">
+        <h3>Fornecedores</h3>
+        <p>Registre parceiros e dados de contato.</p>
+        <a class="primary-btn" href="/fornecedor">Acessar</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include("partials/footer") %>
